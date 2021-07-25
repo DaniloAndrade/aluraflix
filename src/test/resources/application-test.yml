@@ -1,0 +1,21 @@
+#micronaut:
+#  application:
+#    name: aluraFlix
+#datasources:
+#  default:
+#    url: jdbc:tc:mysql:8:///db
+#    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+#
+#jpa:
+#  default:
+#    entity-scan:
+#      packages: 'github.com.daniloandrade.models'
+#    properties:
+##      hibernate.hbm2ddl.auto: update
+#      hibernate.show_sql: true
+#      hibernate.format_sql: true
+
+#flyway:
+#  datasources:
+#    default:
+#      enabled: false
